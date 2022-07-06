@@ -21,9 +21,10 @@ A place to share and demonstrate testing we're doing in GeoCAT. This repo is for
 
 1. Find or create the relevant subdirectory. For example, if your testing relates to `geocat-viz`, find or create a top level folder named `geocat-viz`. Then, create a subdirectory named something specific to the testing you're creating, such as `contourf`. All of the scripts, notebooks, and other files you create should be placed in this subdirectory.
 
-1. In your subdirectory, create a file named `README.md` and  describe the contents of the directory and the testing you're doing.
+1. In your subdirectory, create a file named `README.md` and  describe the contents of the directory and the testing you're doing. Additionally, add a brief summary of your testing project to the `README.md` in the parent directory.
 
 1. Also create a minimal environment file called `environment.yml` that can run the notebooks in the directory. Make sure to update this file with all additional dependencies you might add during the development of your notebooks.
+
 
 ### Testing Feature Development
 
