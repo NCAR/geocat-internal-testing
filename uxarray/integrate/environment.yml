@@ -5,8 +5,8 @@ channels:
 dependencies:
   - python
   - matplotlib
+  - numpy=1.21
   - jupyterlab>=3
-  - geocat-comp
   - xarray
   - ipywidgets
   - dask
@@ -15,7 +15,9 @@ dependencies:
   - intake-esm
   - ncar-jobqueue
   - memory_profiler
+  - numba
+  - scipy
   - pip
   - pip:
-    - git+https://github.com/UXARRAY/uxarray@v_integrate
+    - git+https://github.com/UXARRAY/uxarray@integrate_anissa
     
