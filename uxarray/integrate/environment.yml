@@ -5,7 +5,7 @@ channels:
 dependencies:
   - python
   - matplotlib
-  - numpy=1.21
+  - numpy=1.22
   - jupyterlab>=3
   - xarray
   - ipywidgets
